@@ -6,4 +6,3 @@ FROM (SELECT t.Name as TrackName, SUM(il.UnitPrice) as TotalTrackSales
     WHERE i.InvoiceDate BETWEEN "2013-01-01" AND "2013-12-31"
     )
 
-
